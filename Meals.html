@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Meals</title>
+    <link rel="stylesheet" href="CSS/style3.css">
+</head>
+<style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/background.jpg);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+      background-size: cover;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+  
+    .container {
+      width: 100%;
+      padding: auto;
+      height: 100vh;
+      padding-left: 8%;
+      padding-right: 8%;
+      align-items: center;
+      vertical-align: middle;
+      box-sizing: border-box;
+    }
+  
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+  
+    td,
+    th {
+      border: 1px solid #964b00;
+      text-align: left;
+      padding: 8px;
+    }
+  
+    td {
+      color: white;
+    }
+  
+    th {
+      color: #964b00;
+    }
+  
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  
+    h1 {
+      color: #964b00;
+      font-size: 100px;
+      text-align: center;
+    }
+  
+    p {
+      color: #fff;
+      font-size: 50px;
+      line-height: 15px;
+    }
+  
+    .navbar {
+      overflow: hidden;
+      background-color: #964;
+    }
+  
+    .navbar a {
+      float: left;
+      font-size: 16px;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+  
+    .dropdown {
+      float: left;
+      overflow: hidden;
+    }
+  
+    .dropdown .dropbtn {
+      font-size: 16px;
+      border: none;
+      outline: none;
+      color: white;
+      padding: 14px 16px;
+      background-color: inherit;
+      font-family: inherit;
+      margin: 0;
+    }
+  
+    .navbar a:hover,
+    .dropdown:hover .dropbtn {
+      background-color: black;
+    }
+  
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+    }
+  
+    .dropdown-content a {
+      float: none;
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+  
+    .dropdown-content a:hover {
+      background-color: #ddd;
+    }
+  
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+  
+    .dropdown-content li {
+      list-style: none;
+    }
+  </style>
+<body>
+  <div class="navbar">
+    <div class="dropdown">
+      <button class="dropbtn">F.A.B. Cafe
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="https://www.facebook.com/profile.php?id=100088086863698&mibextid=ZbWKwL">FACEBOOK</a>
+        <a href="#">INSTAGRAM</a>
+        <li>
+          <hr class="dropdown-divider">
+        </li>
+        <a href="Media.html">F.A.B. Gallery</a>
+        <li>
+          <hr class="dropdown-divider">
+        </li>
+        <a href="review.html">Rate Us</a>
+      </div>
+    </div>
+    <a href="index.html">Home</a>
+    <div class="dropdown">
+      <button class="dropbtn">Menu
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="CoffeeMenu.html">Coffee</a>
+        <a href="MilkshakeMenu.html">Milk Shake</a>
+        <a href="FrappuccinoMenu.html">Frappuccino</a>
+        <a href="Meals.html">Meals</a>
+      </div>
+    </div> 
+  </div>
+    <div class="container">
+        <h1>PICA-PICA</h1>
+        <table>
+            <tr>
+                <th>Menu</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Regular Fries</td>
+                <td>₱75</td>
+            </tr>
+            <tr>
+                <td>Chicken & Fries</td>
+                <td>₱115</td>
+            </tr>
+            <tr>
+                <td>Nachos</td>
+                <td>₱115</td>
+            </tr>
+        </table>
+        <h1>WAFFLE STICK</h1>
+        <table>
+            <tr>
+                <th>Menu</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Nutella Waffle</td>
+                <td>₱25(3 for 70)</td>
+            </tr>
+            <tr>
+                <td>Hotdog Waffle</td>
+                <td>₱30(3 for 60)</td>
+            </tr>
+        </table>
+        <h1>PASTA</h1>
+        <table>
+            <tr>
+                <th>Menu</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Bacon Carbonara</td>
+                <td>₱120</td>
+            </tr>
+            <tr>
+                <td>Chicken Carbonara</td>
+                <td>₱120</td>
+            </tr>
+            <tr>
+                <td>Tuna Carbonara</td>
+                <td>₱130</td>
+            </tr>
+                <td>F.A.B. Pasta</td>
+                <td>₱130</td>
+            <tr>
+        </table>
+        <h1>SANDWICH(served with fries)</h1>
+        <table>
+            <tr>
+                <th>Menu</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Hotdog Sandwich</td>
+                <td>₱85</td>
+            </tr>
+            <tr>
+                <td>Ham & Cheese Sandwich</td>
+                <td>₱85</td>
+            </tr>
+            <tr>
+                <td>Spam Sandwich</td>
+                <td>₱95</td>
+            </tr>
+            <tr>
+                <td>Ham & Egg Sandwich</td>
+                <td>₱120</td>
+            </tr>
+            <tr>
+                <td>Burger Sandwich</td>
+                <td>₱130</td>
+            </tr>
+            <tr>
+                <td>Chicken Wrap</td>
+                <td>₱130</td>
+            </tr>
+        </table>
+
+        <h1>RICE MEALS</h1>
+        <table>
+            <tr>
+                <th>Menu</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Solo(3 pcs wings)</td>
+                <td>₱95</td>
+            </tr>
+            <tr>
+                <td>Just the "2" of Us(6 pcs wings)</td>
+                <td>₱185</td>
+            </tr>
+            <tr>
+                <th>Flavors:</th>
+            </tr>
+            <tr>
+                <td>Buffalo</td>
+            </tr>
+            <tr>
+                <td>Sriracha</td>
+            </tr>
+            <tr>
+                <td>Honey Glazed</td>
+            </tr>
+            <tr>
+                <td>Garlic Butter</td>
+            </tr>
+            <tr>
+                <td>Teriyaki</td>
+            </tr>
+        </table>
+        <h1>WINGS IN A TRAY</h1>
+        <table>
+            <tr>
+                <th>Menu</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>30 pcs</td>
+                <td>₱859</td>
+            </tr>
+            <tr>
+                <td>50 pcs</td>
+                <td>₱1,259</td>
+            </tr>
+        </table>
+        <h1>KATSU</h1>
+        <table>
+            <tr>
+                <th>Menu</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Pork Katsu</td>
+                <td>₱150</td>
+            </tr>
+            <tr>
+                <td>Chicken Katsu</td>
+                <td>₱130</td>
+            </tr>
+        </table>
+        <h1>PANSIT CABAGAN</h1>
+        <table>
+            <tr>
+                <th>Menu</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Regular</td>
+                <td>₱50</td>
+            </tr>
+            <tr>
+                <td>Special</td>
+                <td>₱80</td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>

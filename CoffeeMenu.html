@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Coffee</title>
+  <link rel="stylesheet" href="CSS/style2.css">
+</head>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .container {
+    width: 100%;
+    padding: auto;
+    height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    align-items: center;
+    vertical-align: middle;
+    box-sizing: border-box;
+  }
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  td,
+  th {
+    border: 1px solid #964b00;
+    text-align: left;
+    padding: 8px;
+  }
+
+  td {
+    color: white;
+  }
+
+  th {
+    color: #964b00;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  h1 {
+    color: #964b00;
+    font-size: 100px;
+    text-align: center;
+  }
+
+  p {
+    color: #fff;
+    font-size: 50px;
+    line-height: 15px;
+  }
+
+  .navbar {
+    overflow: hidden;
+    background-color: #964;
+  }
+
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+
+  .navbar a:hover,
+  .dropdown:hover .dropbtn {
+    background-color: black;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown-content li {
+    list-style: none;
+  }
+</style>
+<body>
+  <div class="navbar">
+    <div class="dropdown">
+      <button class="dropbtn">F.A.B. Cafe
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="https://www.facebook.com/profile.php?id=100088086863698&mibextid=ZbWKwL">FACEBOOK</a>
+        <a href="#">INSTAGRAM</a>
+        <li>
+          <hr class="dropdown-divider">
+        </li>
+        <a href="Media.html">F.A.B. Gallery</a>
+        <li>
+          <hr class="dropdown-divider">
+        </li>
+        <a href="review.html">Rate Us</a>
+      </div>
+    </div>
+    <a href="index.html">Home</a>
+    <div class="dropdown">
+      <button class="dropbtn">Menu
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="CoffeeMenu.html">Coffee</a>
+        <a href="MilkshakeMenu.html">Milk Shake</a>
+        <a href="FrappuccinoMenu.html">Frappuccino</a>
+        <a href="Meals.html">Meals</a>
+      </div>
+    </div> 
+  </div>
+  <div class="container">
+    <h1>COFFEE</h1>
+    <table>
+      <tr>
+        <th>Menu</th>
+        <th>Price</th>
+      </tr>
+      <tr>
+        <th></th>
+        <th>Hot</th>
+        <th>Iced</th>
+      </tr>
+      <tr>
+        <td>Americano</td>
+        <td>₱75</td>
+        <td>₱90</td>
+      </tr>
+      <tr>
+        <td>Latte</td>
+        <td>₱85</td>
+        <td>₱95</td>
+      </tr>
+      <tr>
+        <td>Cappuccino</td>
+        <td>₱85</td>
+        <td>₱95</td>
+      </tr>
+      <tr>
+        <td>Spanish Latte</td>
+        <td>₱85</td>
+        <td>₱100</td>
+      </tr>
+      <tr>
+        <td>Caramel Macchiatto</td>
+        <td>₱90</td>
+        <td>₱100</td>
+      </tr>
+      <tr>
+        <td>Hazelnut</td>
+        <td>₱90</td>
+        <td>₱100</td>
+      </tr>
+      <tr>
+        <td>Salted Caramel</td>
+        <td>₱90</td>
+        <td>₱100</td>
+      </tr>
+      <tr>
+        <td>Hot Chocolate</td>
+        <td>₱95</td>
+        <td>₱105</td>
+      </tr>
+      <tr>
+        <td>Mocha</td>
+        <td>₱100</td>
+        <td>₱110</td>
+      </tr>
+    </table>
+  </div>
+</body>
+
+</html>
